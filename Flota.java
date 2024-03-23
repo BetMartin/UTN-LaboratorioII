@@ -11,7 +11,7 @@ import java.util.ArrayList;
  * @author betsa
  */
 public class Flota {
-    private ArrayList<Avion> aviones= new ArrayList();
+    private ArrayList<Avion> aviones= new ArrayList<Avion> ();
     
     
     
