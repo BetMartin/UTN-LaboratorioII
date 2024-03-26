@@ -40,8 +40,8 @@ public class LabII_TP1{
                 
         Avion avion = new Avion(120000,vuelos, flota, pilotos);
         vuelo.pertenece = avion;
-        pilotos[0].vuela =avion;
-        pilotos[1].vuela =avion;
+        pilotos[0].vuelta =avion;
+        pilotos[1].vuelta =avion;
         
         pilotos[0].vuela();
     }
