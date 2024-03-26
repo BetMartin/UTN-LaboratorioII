@@ -10,12 +10,12 @@ package LabII_TP1;
  */
 public class Piloto extends Persona implements Volador{
     int matricula;
-    Avion vuela;
+    Avion vuelta;
 
     public Piloto(String Nombre, int dni,int matricula, Avion vuelta) {
         super(Nombre, dni);
         this.matricula = matricula;
-        this.vuela = vuelta;
+        this.vuelta = vuelta;
     }
     
     public void vuela(){

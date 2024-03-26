@@ -9,11 +9,11 @@ package LabII_TP1;
  * @author betsa
  */
 public class Reserva {
-    public int nuemroReserva;
+    public int numeroReserva;
     Vuelo v;
 
-    public Reserva(int nuemroReserva, Vuelo v) {
-        this.nuemroReserva = nuemroReserva;
+    public Reserva(int numeroResehrva, Vuelo v) {
+        this.numeroReserva = numeroReserva;
         this.v = v;
     }
     
