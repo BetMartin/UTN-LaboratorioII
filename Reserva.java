@@ -10,7 +10,7 @@ package LabII_TP1;
  */
 public class Reserva {
     public int numeroReserva;
-    Vuelo v;
+    public Vuelo v;
 
     public Reserva(int numeroResehrva, Vuelo v) {
         this.numeroReserva = numeroReserva;

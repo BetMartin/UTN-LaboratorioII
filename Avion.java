@@ -11,10 +11,10 @@ import java.util.ArrayList;
  * @author betsa
  */
 public class Avion {
-    private int autonomia;
-    private ArrayList<Vuelo>vuelo;
-    private Flota flota;
-    private Piloto piloto[];
+    public int autonomia;
+    public ArrayList<Vuelo>vuelo;
+    public Flota flota;
+    public Piloto piloto[];
 
     public Avion(int autonomia, ArrayList<Vuelo> vuelo, Flota flota, Piloto[] piloto) {
         this.autonomia = autonomia;
