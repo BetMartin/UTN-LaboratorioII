@@ -4,10 +4,7 @@
  */
 package LabII_TP1;
 
-/**
- *
- * @author betsa
- */
+
 public class Piloto extends Persona implements Volador{
     public int matricula;
     public Avion vuelta;
