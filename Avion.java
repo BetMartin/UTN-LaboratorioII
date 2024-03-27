@@ -6,10 +6,7 @@ package LabII_TP1;
 
 import java.util.ArrayList;
 
-/**
- *
- * @author betsa
- */
+
 public class Avion {
     public int autonomia;
     public ArrayList<Vuelo>vuelo;
