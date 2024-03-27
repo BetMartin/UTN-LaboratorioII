@@ -9,8 +9,8 @@ package LabII_TP1;
  * @author betsa
  */
 public class Piloto extends Persona implements Volador{
-    int matricula;
-    Avion vuelta;
+    public int matricula;
+    public Avion vuelta;
 
     public Piloto(String Nombre, int dni,int matricula, Avion vuelta) {
         super(Nombre, dni);
@@ -22,8 +22,24 @@ public class Piloto extends Persona implements Volador{
         System.out.println("Volando...");
         
     }
-    
-    
-    
-    
+
+    //get y set
+
+    public int getMatricula() {
+        return matricula;
+    }
+
+    public void setMatricula(int matricula) {
+        this.matricula = matricula;
+    }
+
+    public Avion getVuelta() {
+        return vuelta;
+    }
+
+    public void setVuelta(Avion vuelta) {
+        this.vuelta = vuelta;
+    }
+
+
 }

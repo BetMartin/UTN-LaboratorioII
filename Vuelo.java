@@ -19,5 +19,13 @@ public class Vuelo {
         this.id = id;
         this.pertenece = pertenece;
         this.reserva = reserva;
-    }  
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 }

@@ -12,12 +12,16 @@ public class Reserva {
     public int numeroReserva;
     public Vuelo v;
 
-    public Reserva(int numeroResehrva, Vuelo v) {
+    public Reserva(int numeroReserva, Vuelo v) {
         this.numeroReserva = numeroReserva;
         this.v = v;
     }
-    
-    
-    
-    
+
+    public int getNumeroReserva() {
+        return numeroReserva;
+    }
+
+    public void setNumeroReserva(int numeroReserva) {
+        this.numeroReserva = numeroReserva;
+    }
 }
