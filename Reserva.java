@@ -4,10 +4,7 @@
  */
 package LabII_TP1;
 
-/**
- *
- * @author betsa
- */
+
 public class Reserva {
     public int numeroReserva;
     public Vuelo v;
