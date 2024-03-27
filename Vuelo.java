@@ -6,10 +6,7 @@ package LabII_TP1;
 
 import java.util.ArrayList;
 
-/**
- *
- * @author betsa
- */
+
 public class Vuelo {
     public int id;
     public Avion pertenece;
